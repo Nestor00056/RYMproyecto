@@ -1,0 +1,102 @@
+{
+  "User": [
+    {
+      "id": 1,
+      "email": "example@hotmail.com",
+      "password": "User1234",
+      "cards": [
+        {
+          "id": 4,
+          "name": "Beth Smith",
+          "status": "Alive",
+          "species": "Human",
+          "type": "",
+          "gender": "Female",
+          "origin": {
+            "name": "Earth (Replacement Dimension)",
+            "url": "https://rickandmortyapi.com/api/location/20"
+          },
+          "location": {
+            "name": "Earth (Replacement Dimension)",
+            "url": "https://rickandmortyapi.com/api/location/20"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
+          "url": "https://rickandmortyapi.com/api/character/4",
+          "created": "2017-11-04T19:22:43.665Z"
+        },
+        {
+          "id": 444,
+          "name": "Pink Polo Shirt Jerry",
+          "status": "Alive",
+          "species": "Human",
+          "type": "",
+          "gender": "Male",
+          "origin": {
+            "name": "unknown",
+            "url": ""
+          },
+          "location": {
+            "name": "Jerryboree",
+            "url": "https://rickandmortyapi.com/api/location/44"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/444.jpeg",
+          "url": "https://rickandmortyapi.com/api/character/444",
+          "created": "2018-05-01T12:27:08.632Z"
+        }
+      ],
+      "historyId": [
+        4,
+        444
+      ],
+      "favCards": {
+        "fav": [
+          {
+            "id": 4,
+            "name": "Beth Smith",
+            "status": "Alive",
+            "species": "Human",
+            "type": "",
+            "gender": "Female",
+            "origin": {
+              "name": "Earth (Replacement Dimension)",
+              "url": "https://rickandmortyapi.com/api/location/20"
+            },
+            "location": {
+              "name": "Earth (Replacement Dimension)",
+              "url": "https://rickandmortyapi.com/api/location/20"
+            },
+            "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
+            "url": "https://rickandmortyapi.com/api/character/4",
+            "created": "2017-11-04T19:22:43.665Z"
+          }
+        ],
+        "filterFav": [
+          {
+            "id": 4,
+            "name": "Beth Smith",
+            "status": "Alive",
+            "species": "Human",
+            "type": "",
+            "gender": "Female",
+            "origin": {
+              "name": "Earth (Replacement Dimension)",
+              "url": "https://rickandmortyapi.com/api/location/20"
+            },
+            "location": {
+              "name": "Earth (Replacement Dimension)",
+              "url": "https://rickandmortyapi.com/api/location/20"
+            },
+            "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
+            "url": "https://rickandmortyapi.com/api/character/4",
+            "created": "2017-11-04T19:22:43.665Z"
+          }
+        ]
+      },
+      "details": {
+        "user_name": "Usuario1234",
+        "about_me": "",
+        "user_image": ""
+      }
+    }
+  ]
+}

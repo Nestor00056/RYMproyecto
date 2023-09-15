@@ -1,0 +1,38 @@
+.nav-menu {
+  width: 100%;
+  height: auto;
+  font-family: "RickandMorty";
+  display: flex;
+  justify-content: center;
+}
+
+.ul-menu {
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.ul-menu a {
+  text-decoration: none;
+  font-size: 210%;
+  color: rgb(0, 122, 102);
+}
+.ul-menu a:hover {
+  text-decoration: underline;
+  text-shadow: 0px 0px 10px rgb(229, 255, 79);
+  cursor: pointer;
+}
+
+.ul-menu a.active {
+  text-shadow: 0px 0px 10px rgb(229, 255, 79);
+}
+
+.userName {
+  font-family: sans-serif;
+  color: white;
+  text-shadow: 0px 0px 3px rgb(229, 255, 79);
+  font-size: 200%;
+  margin-left: 20px;
+}

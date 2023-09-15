@@ -1,0 +1,234 @@
+@font-face {
+  font-family: RickandMorty;
+  src: url("../../assets/get_schwifty.ttf") format("truetype");
+}
+.ContentRender {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  width: 100%;
+  min-height: 70%;
+  font-family: sans-serif;
+}
+
+.input-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 20vh;
+  width: 100%;
+
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.inputs-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+.input {
+  border: none;
+  height: 5vh;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgb(148, 218, 44);
+  margin-bottom: 5px;
+}
+.input:focus {
+  border: 4px solid greenyellow;
+  outline: none;
+}
+.input-h1 {
+  font-size: 150%;
+  color: white;
+}
+.input-button {
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: rgb(148, 218, 44);
+  cursor: pointer;
+  color: white;
+  box-shadow: 0px 0px 10px rgb(148, 218, 44);
+  transition: box-shadow 0.6s;
+}
+
+.card-list {
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.Card {
+  width: 250px;
+  height: 370px;
+  background: linear-gradient(to bottom, #26a5a5, #64ff64);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  gap: 5px;
+  margin-top: 10px;
+  transition: box-shadow 0.6s, transform 0.6s;
+  box-shadow: 0px 0px 10px black, 0px 0px 10px black;
+  box-sizing: content-box;
+  margin-bottom: 10px;
+}
+.Card:hover {
+  box-shadow: 0px 0px 10px rgb(229, 255, 79), 0px 5px 10px rgb(0, 0, 0);
+  transform: scale(1.05); /* Aumentar el tamaño en un 20% */
+}
+
+.Card > h1 {
+  text-align: center;
+  text-shadow: 0px 0px 5px black;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.image-card {
+  margin-top: 10px;
+  height: 70%;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.button-container > button {
+  border: none;
+  font-size: 110%;
+  border-radius: 15px;
+  padding: 3%;
+  cursor: pointer;
+  transition: box-shadow 0.6s;
+}
+
+.button-container > button:hover {
+  box-shadow: 0px 0px 10px white;
+}
+.screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.295);
+  width: 100%;
+  height: 100%;
+  transform: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card-detailed {
+  width: 90%;
+  height: 80%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-button {
+  font-size: 200%;
+  font-weight: bold;
+  cursor: pointer;
+  order: 3;
+  align-self: flex-start;
+}
+
+.container-details {
+  width: 95%;
+  height: 95%;
+  background-color: beige;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-image-datails {
+  margin-left: 3%;
+  width: 30%;
+  height: 90%;
+  border-radius: 25px;
+  box-sizing: content-box;
+  border: 10px solid black;
+}
+.details {
+  width: 60%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 25px;
+  border: 10px solid black;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+.details > h1 {
+  width: 100%;
+  background: linear-gradient(to bottom, #26a5a5, #64ff64);
+  font-size: 300%;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+  border: 3px solid black;
+  font-family: "RickandMorty";
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.details label {
+  font-weight: bold;
+  font-size: 150%;
+  margin-left: 3%;
+}
+
+.details p {
+  margin-left: 3%;
+  font-size: 200%;
+  text-decoration: underline;
+}
+
+.heart {
+  font-size: 300%;
+  cursor: pointer;
+  transition: scale 0.6s;
+}
+.heart:hover {
+  scale: 1.1;
+}
+.heart::selection {
+  background-color: transparent;
+}
+
+.select {
+  border: none;
+  width: 200px;
+  height: 5vh;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgb(148, 218, 44);
+  margin-bottom: 5px;
+}
+.select > option {
+  border-radius: 15px;
+}
