@@ -22,7 +22,8 @@ function RenderCards({ isFavorite }) {
         if (userData) {
           await ValidationData(
             userData,
-            "http://localhost:3000/rickandmorty/updateuser"
+            "http://localhost:3000/rickandmorty/updateuser",
+            "PUT"
           );
         }
       } catch (error) {
@@ -43,7 +44,7 @@ function RenderCards({ isFavorite }) {
         Dispatch(favFilter({}));
       }
 
-      if (userData) {
+      if (userUpdate) {
         updateData();
         Dispatch(UpdateUser());
       }
@@ -53,7 +54,7 @@ function RenderCards({ isFavorite }) {
   return (
     <>
       <article className="userName">
-        <h1>{userData.details.user_name}</h1>
+        <h1>{userData.details?.user_name}</h1>
       </article>
       <article className="ContentRender">
         <Menu

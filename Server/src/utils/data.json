@@ -1,0 +1,160 @@
+{
+  "User": [
+    {
+      "id": 1,
+      "email": "example@hotmail.com",
+      "password": "User1234",
+      "cards": [
+        {
+          "id": 4,
+          "name": "Beth Smith",
+          "status": "Alive",
+          "species": "Human",
+          "type": "",
+          "gender": "Female",
+          "origin": {
+            "name": "Earth (Replacement Dimension)",
+            "url": "https://rickandmortyapi.com/api/location/20"
+          },
+          "location": {
+            "name": "Earth (Replacement Dimension)",
+            "url": "https://rickandmortyapi.com/api/location/20"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
+          "url": "https://rickandmortyapi.com/api/character/4",
+          "created": "2017-11-04T19:22:43.665Z"
+        },
+        {
+          "id": 444,
+          "name": "Pink Polo Shirt Jerry",
+          "status": "Alive",
+          "species": "Human",
+          "type": "",
+          "gender": "Male",
+          "origin": {
+            "name": "unknown",
+            "url": ""
+          },
+          "location": {
+            "name": "Jerryboree",
+            "url": "https://rickandmortyapi.com/api/location/44"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/444.jpeg",
+          "url": "https://rickandmortyapi.com/api/character/444",
+          "created": "2018-05-01T12:27:08.632Z"
+        },
+        {
+          "id": 445,
+          "name": "Jerryboree Keeper",
+          "status": "Alive",
+          "species": "Alien",
+          "type": "",
+          "gender": "Female",
+          "origin": {
+            "name": "unknown",
+            "url": ""
+          },
+          "location": {
+            "name": "Jerryboree",
+            "url": "https://rickandmortyapi.com/api/location/44"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/445.jpeg",
+          "url": "https://rickandmortyapi.com/api/character/445",
+          "created": "2018-05-01T13:09:57.921Z"
+        }
+      ],
+      "historyId": [
+        4,
+        444,
+        445
+      ],
+      "favCards": {
+        "fav": [],
+        "filterFav": []
+      },
+      "details": {
+        "user_name": "Usuario1234",
+        "about_me": "",
+        "user_image": ""
+      }
+    },
+    {
+      "id": 2,
+      "email": "nestor_0056@hotmail.com",
+      "password": "Camilo1234",
+      "cards": [
+        {
+          "id": 22,
+          "name": "Aqua Rick",
+          "status": "unknown",
+          "species": "Humanoid",
+          "type": "Fish-Person",
+          "gender": "Male",
+          "origin": {
+            "name": "unknown",
+            "url": ""
+          },
+          "location": {
+            "name": "Citadel of Ricks",
+            "url": "https://rickandmortyapi.com/api/location/3"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/22.jpeg",
+          "url": "https://rickandmortyapi.com/api/character/22",
+          "created": "2017-11-04T22:41:07.171Z"
+        },
+        {
+          "id": 44,
+          "name": "Body Guard Morty",
+          "status": "Dead",
+          "species": "Human",
+          "type": "",
+          "gender": "Male",
+          "origin": {
+            "name": "unknown",
+            "url": ""
+          },
+          "location": {
+            "name": "Citadel of Ricks",
+            "url": "https://rickandmortyapi.com/api/location/3"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/44.jpeg",
+          "url": "https://rickandmortyapi.com/api/character/44",
+          "created": "2017-11-05T10:18:11.062Z"
+        },
+        {
+          "id": 66,
+          "name": "Coach Feratu (Balik Alistane)",
+          "status": "Dead",
+          "species": "Mythological Creature",
+          "type": "Vampire",
+          "gender": "Male",
+          "origin": {
+            "name": "Earth (Replacement Dimension)",
+            "url": "https://rickandmortyapi.com/api/location/20"
+          },
+          "location": {
+            "name": "Earth (Replacement Dimension)",
+            "url": "https://rickandmortyapi.com/api/location/20"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/66.jpeg",
+          "url": "https://rickandmortyapi.com/api/character/66",
+          "created": "2017-11-30T11:10:10.491Z"
+        }
+      ],
+      "historyId": [
+        22,
+        44,
+        66
+      ],
+      "favCards": {
+        "fav": [],
+        "filterFav": []
+      },
+      "details": {
+        "user_name": "Camilo1234",
+        "about_me": "",
+        "user_image": ""
+      }
+    }
+  ]
+}

@@ -17,7 +17,8 @@ function Menu({ userData }) {
 
       let responseData = await ValidationData(
         userData.access_user,
-        "http://localhost:3000/rickandmorty/updateuser"
+        "http://localhost:3000/rickandmorty/updateuser",
+        "PUT"
       );
 
       if (responseData.message === "el usuario fue actuaizado correctamente") {

@@ -28,11 +28,11 @@ export const validationForms = (obj) => {
   return error;
 };
 
-export const ValidationData = (Data, url) => {
+export const ValidationData = (Data, url, METHOD = "POST") => {
   let data = Data.id ? { ...Data } : Data.email ? { ...Data } : null;
   if (data && url) {
     return fetch(url, {
-      method: "POST",
+      method: METHOD === "PUT" ? "PUT" : "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
     })

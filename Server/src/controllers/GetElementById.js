@@ -1,7 +1,5 @@
-const { response } = require("express");
-
-const consultApi = (id) => {
-  return fetch(`https://rickandmortyapi.com/api/character/${id}`)
+const consultApi = (page) => {
+  return fetch(`https://rickandmortyapi.com/api/character/?page=${page}`)
     .then((response) => {
       if (!response.ok) {
         throw new Error(

@@ -5,7 +5,7 @@ const { ReadFileJson } = require("./ReadFile");
 const GenerateNewIndex = async () => {
   try {
     let database = path.join(__dirname, "../data.json");
-    let data = ReadFileJson(database, "utf-8");
+    let data = await ReadFileJson();
     let newIndex = 1;
     data.User.forEach((el) => {
       if (newIndex <= el.id) {

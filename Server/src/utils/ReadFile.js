@@ -1,8 +1,12 @@
 const fs = require("fs");
+const path = require("path");
 
-const ReadFileJson = (root) => {
+const ReadFileJson = async () => {
   try {
-    const dataJson = fs.readFileSync(root, "utf-8");
+    const dataJson = fs.readFileSync(
+      path.join(__dirname, "/data.json"),
+      "utf-8"
+    );
     const data = JSON.parse(dataJson);
     return data;
   } catch (error) {
